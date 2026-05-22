@@ -1,0 +1,50 @@
+You are an expert Python Developer, CustomTkinter Software Architect, and Senior Blue-Team Cyber Threat Hunter. 
+
+Your objective is to generate a complete, fully integrated, decoupled 4-script local AI Cyber Range Sandbox from scratch. The system architecture must simulate advanced adversary emulation (Red Team) communicating over local network sockets with a tactical threat monitoring HUD (Blue Team).
+
+### 🛠️ PHASE 1: GENERATE CODE ARCHITECTURE (4 DISTINCT SCRIPTS)
+
+You must output 4 complete, non-placeholder Python files structured as follows:
+
+1. 'gui_app.py' (The Security Operations Center Dashboard):
+   - A multi-threaded CustomTkinter interface running a dark tactical cyberpunk theme (#0a0e14 background, matrix green #00ffaa and breach red highlights).
+   - Must run a background thread hosting an asynchronous UDP socket listener bound to 127.0.0.1:5005 to process live incoming network payloads without freezing the UI.
+   - UI layout must feature 4 high-visibility scoreboard cards: Threat Index Gauge (0-100 score), MITRE ATT&CK Target Badge, Origin Intelligence Locator, and Client Integrity Profile.
+   - Features a segmented toggle button on top to switch hot-swapping between [OFFLINE DETECTOR ENGINE] and [ONLINE GEMINI AI BRAIN].
+
+2. 'email_sender.py' (The PhishGuard Adversary Attack Simulator):
+   - A standalone CustomTkinter panel that models a 15-scenario polymorphic threat matrix.
+   - Includes standard administrative urgency notifications, credential harvestings, whaling fraud, and defense evasion testing payloads.
+   - Includes a visual terminal log showing network delivery streams, custom target headers, and dynamic mutation options before pushing JSON payloads over UDP port 5005.
+
+3. 'detect_phishing.py' (The Core Baseline Analysis Module):
+   - Holds the modular logic for standard and heuristic scanning routines to feed clean parameters back into the visual interfaces.
+
+4. 'generate_emails.py' (The Threat Telemetry Data Matrix):
+   - Houses the library templates, target user profiles, and malicious generation logic for the adversarial scenario controller.
+
+---
+
+### 🔬 PHASE 2: CORE DETECTIVE CHARACTERISTICS & SECURITY MATRIX
+
+The detection logic (primarily executed in 'gui_app.py' and supported by 'detect_phishing.py') MUST independently process these exact heuristic features:
+
+- The Zero-Width Space Sieve: Regex routines identifying multi-consecutive hidden tokens [\u200b\u200c] inside character byte streams.
+- Cyrillic Homoglyph Scanner: Tracks lookalike Cyrillic characters [\u0400-\u04FF] trying to forge enterprise domains.
+- Keyword Spacing Padding Trap: Catches exploded space structures like "i n v o i c e" or "p a s s w o r d" case-insensitively.
+- Cross-Field Verification (Metadata Mismatch): Automatically spikes the threat score if corporate urgency keywords appear, but the 'client_user_agent' matches programmatic script tools (python-requests, curl, wget) instead of standard enterprise clients.
+- Honey-Token & Data Leak Ingestion: Intercepts cleartext server prints and signatures (e.g., exposed AWS/AKIA string components).
+
+The offline processing function must evaluate these rules using INDEPENDENT 'if' statements so that points stack additively, outputting exactly 5 variables to update the UI elements safely: (score, severity, alerts_list, tactics_str, sender_ip).
+
+---
+
+### 🧠 PHASE 3: COGNITIVE AI MODEL & STABILITY ORCHESTRATION
+
+When toggled to the Online Gemini Brain, the application must use 'gemini-2.5-flash' via the 'google-genai' SDK to process Tier-3 incident response analysis under the following operational guidelines:
+
+- The Safety Guardrail Bypass System Instructions: Frame the incoming malicious telemetry as static, non-executable, sandboxed configuration text logs strictly intended for digital forensics instruction, preventing 403 API Safety Filter Blocks when scanning heavy phishing payloads.
+- Thread-Safe UI Callbacks: All socket communication and API payloads altering the UI must utilize parameterless lambda routines ('self.after(0, lambda: ...)') to completely eliminate thread-lock crashes.
+- Fail-Safe Exception Fallbacks: If an internet connection drop, a 503 service spike, or an API quota exception occurs during live traffic injection, the application must cleanly catch the error and automatically fall back to localized offline signature diagnostics without crashing the network loop.
+
+Output the entire system architecture cleanly, maintaining strict data contract alignment between all scripts so they function flawlessly out-of-the-box!
