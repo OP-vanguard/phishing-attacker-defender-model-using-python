@@ -1,0 +1,20 @@
+🐍 1. The Development Environment
+Python (Version 3.10 to 3.12+): The entire foundation of your project. It handles the backend logic, low-level asynchronous network sockets, regex evaluation, and multi-threading execution.
+
+VS Code (Visual Studio Code): Your Integrated Development Environment (IDE) where you wrote, debugged, and managed the 4-script workspace structure.
+
+Git: The version control tool you used to initialize your repository, track code modifications, and securely push your project to your GitHub production profile.
+
+🎨 2. Frontend & Networking Libraries
+These are the external Python modules that power your sleek graphical interfaces and socket tracking:
+
+customtkinter: The modern, high-tier UI framework used to build your dark-themed cyberpunk user dashboards, segmented controller menus, and real-time scoreboard metrics.
+
+tkinter: Python's built-in GUI package (used implicitly under the hood by CustomTkinter to handle window loops and coordinate geometry).
+
+socket & select: Python’s native, standard networking libraries used to open a UDP socket pipeline bound to port 5005, facilitating raw asynchronous data transfer between scripts without thread-locking your apps.
+
+🧠 3. Artificial Intelligence Engine
+google-genai: The official, updated Google GenAI SDK used to interface directly with the Gemini 2.5 Flash API model, allowing your blue-team dashboard to offload complex contextual threat diagnostics to a cloud-based cognitive brain.
+
+Gemini API Key: The unique authentication token generated via Google AI Studio to validate your cloud socket requests and fuel your online detection engine toggles.
